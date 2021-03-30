@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="user" value="123sample123"></parameter> 
+  <parameter name="pass" value="1234567890"></parameter> 
+  <parameter name="location" value="Sydney"></parameter> 
+  <parameter name="hotel" value="Hotel Creek"></parameter> 
+  <parameter name="roomtype" value="Standard"></parameter> 
+  <parameter name="roomno" value="1"></parameter> 
+  <parameter name="indate" value="14/04/2021"></parameter> 
+  <parameter name="outdate" value="16/04/2021"></parameter> 
+  <parameter name="adults" value="1"></parameter> 
+  <parameter name="child" value="0"></parameter> 
+  <parameter name="fstname" value="sample"></parameter> 
+  <parameter name="lstname" value="value"></parameter> 
+  <parameter name="add" value="qwertyffgh"></parameter> 
+  <parameter name="cardno" value="1234567890123456"></parameter> 
+  <parameter name="cardtype" value="AMEX"></parameter> 
+  <parameter name="expirymnt" value="5"></parameter> 
+  <parameter name="expiryyr" value="2022"></parameter> 
+  <parameter name="ccv" value="123"></parameter> 
+      <classes>
+      <class name="org.hotel.Hotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
